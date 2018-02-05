@@ -319,13 +319,18 @@ public class MatrixFinder2 {
         
         System.out.println();
         */
-        for (int i = 1000; i < 2000; i += 5) {
+        for (int i = 1000; i < 2000; i += 100) {
+            System.out.print(i + ",");
+            long total = 0;
             int[][] at = new int[i][i];
             fill(at);
-            a = System.nanoTime();
-            search(at, (int) (1024 * Math.random()));
-            b = System.nanoTime();
-            System.out.println((b - a) / 1000000000.0);
+            for (int j = 0; j < 10; j++) {
+                a = System.nanoTime();
+                search(at, (int) ((10 * (i - 1) * Math.random())));
+                b = System.nanoTime();
+                total += b - a;
+            }
+            System.out.println(total / 10000000000.0);
         }
     }
 }
