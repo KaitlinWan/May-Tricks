@@ -76,7 +76,7 @@ public class DataGen {
                 b = System.currentTimeMillis(); //measure crrnt time in ms
                 total += b - a; //find time took and add to total
             }
-            System.out.println(total / 1000000.0); //average time for one search
+            System.out.println(total / 5000000.0); //average time for one search
         }
     }
 }
