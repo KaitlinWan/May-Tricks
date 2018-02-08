@@ -48,7 +48,7 @@ public class MatrixFinder {
                 if (matrix[rowNum][colNum] < num) { //move right one column if smaller than num
                     colNum += 1;
                 } else {
-                    rowNum -= 1; //move up one row is larger than num
+                    rowNum -= 1; //move up one row if larger than num
                 }
             }
         } catch (ArrayIndexOutOfBoundsException e) {
