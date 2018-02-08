@@ -65,12 +65,12 @@ public class DataGen {
     public static void main(String[] args) {
         long a;
         long b;
-        for (int k = 15000; k >= 1000; k -= 100) { //array size
+        for (int k = 17000; k >= 1000; k -= 100) { //array size
             System.out.print(k + ","); //print out array size
             int[][] arr = new int[k][k]; //declare and init
             fill(arr); //fill it
             long total = 0; //total runtime
-            for (int i = 0; i < 1000; i++) { //run 100 trials
+            for (int i = 0; i < 5000; i++) { //run 100 trials
                 a = System.currentTimeMillis(); //measure crrnt time in ms
                 search(arr, (int) ((2000 * (i - 1)) * Math.random())); //randomly search for a # based on size of arr
                 b = System.currentTimeMillis(); //measure crrnt time in ms
