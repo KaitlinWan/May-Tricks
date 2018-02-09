@@ -78,8 +78,8 @@ public class MFDriver {
     }
 
     public static void main(String[] args) {
-        long a;
-        long b;
+        long a = 0;
+        long b = 0;
 
         //test using the simple array filler (elmnts are consecutive #s) with worse case
         for (int n = 17000; n >= 5000; n -= 100) { //array size
