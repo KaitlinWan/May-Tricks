@@ -10,7 +10,7 @@ If there is a n x n 2D array of ints, wherein numbers increase across any row (L
 Problem: Devise a O(n) search algorithm for a n x n 2D array of ints, wherein numbers increase across any row (L->R) and down any column.
 [Flow Chart & Procedure for Algorithim](Search2DArray.jpg)
 # Experiment Methodology
-We are going to test our hypothesis by using System.out.currentTimeMillis() when starting the algorithm  and System.out.currentTimeMillis() when the algorithm finishes and subtract the two values. This will provide us with the time it took for the algorithm to find the value in the 2-D array. 
+We are going to find out if our algorithm is a O(n) runtime by testing how long the algorithm takes to run on increasing n values, with this data we are going to graph the points and look at the trend of the graph. In order to time how long the algorithm takes to find the value in the 2D array we will run System.out.currentTimeMillis() when starting the algorithm and System.out.currentTimeMillis() when the algorithm finishes and subtracting the two values from each other. In all of our test cases our value of n will be greater than 1000 to minimize the effect of other variables affecting our experiment (Computer Memory Management). Furthermore, we will be running multiple trials for the same purpose of minimizing the effects of outside variables and to minimize the probabilty that the value we are trying to find just so happened to be a value that drastically lowered or increased the time; in other words a value that is found in the beginning of the 2-D array or a value at the end of the 2-D array.
 # Results
 
 # Conclusions
