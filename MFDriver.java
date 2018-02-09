@@ -83,7 +83,7 @@ public class MFDriver {
 
         //test using the simple array filler (elmnts are consecutive #s) with worse case
         for (int n = 17000; n >= 5000; n -= 100) { //array size
-            System.out.println(n + ","); //print array size
+            System.out.print(n + ","); //print array size
             long total = 0; //total runtime for each run
             int[][] arr = new int[n][n]; //declare and init
             fillOrdered(arr); //fill it
@@ -101,7 +101,7 @@ public class MFDriver {
 
         //test using the simple array filler (elmnts are consecutive #s) with random search
         for (int n = 17000; n >= 5000; n -= 100) { //array size
-            System.out.println(n + ","); //print array size
+            System.out.print(n + ","); //print array size
             long total = 0; //total runtime for each run
             int[][] arr = new int[n][n]; //declare and init
             fillOrdered(arr); //fill it
