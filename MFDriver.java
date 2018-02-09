@@ -117,7 +117,7 @@ public class MFDriver {
             System.out.println(total / 4900000.0); //average time for one search
         }
 
-	//test using the advanced array filler (elmnts are not consecutive #s) with random search
+        //test using the advanced array filler (elmnts are not consecutive #s) with random search
         for (int n = 17000; n >= 5000; n -= 100) { //array size
             System.out.print(n + ","); //print array size
             long total = 0; //total runtime for each run
@@ -125,10 +125,12 @@ public class MFDriver {
             fillRand(arr); //fill it
 
             for (int trial = 0; trial < 5000; trial++) { //4900 runs
-                a = System.currentTimeMillis();
-                search(arr, (int) ((1000 * (n - 1)) * Math.random())); //randomly search for a # based on size of arr
-                b = System.currentTimeMillis();
-                total += b - a; //find time took and add to total
+                if (trial > 99) { //compensates for weird behavior for first few runs
+                    a = System.currentTimeMillis();
+                    search(arr, (int) ((1000 * (n - 1)) * Math.random())); //randomly search for a # based on size of arr
+                    b = System.currentTimeMillis();
+                    total += b - a; //find time took and add to total
+                }
             }
             System.out.println(total / 4900000.0); //average time for one search
         }
