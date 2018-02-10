@@ -10,10 +10,12 @@ L #00 -- But What Does the Data Say?
 
 # Background
 
-Problem: Devise a O(n) search algorithm for a n x n 2D array of ints, wherein numbers increase across any row (L-> R) and down any column.
+Problem: Devise a O(n) search algorithm for a n x n 2-D array of integers, wherein numbers increase across any row (L-> R) and down any column.
 # Hypothesis
 
-If there is a n x n 2D array of ints, wherein numbers increase across any row (L-> R) and down any column, then we believe that our algorithm exhibits a O(n) runtime.
+If there is a n x n 2-D array of integers, wherein numbers increase across any row (L-> R) and down any column, then we believe that our algorithm exhibits a O(n) runtime.
+
+
 ![Flow Chart & Procedure for Algorithim](https://github.com/KaitlinWan/May-Tricks/blob/master/Search2DArray.jpg)
 # Experiment Methodology
 
