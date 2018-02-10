@@ -2,7 +2,7 @@ Team May-Tricks
 
 Alan Wang, Kevin Wang, Kaitlin Wan
 
-APCS2 pd08
+APCS2 Pd. 8
 
 L #00 -- But What Does the Data Say?
 
