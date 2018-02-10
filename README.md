@@ -1,7 +1,11 @@
 Team May-Tricks
+
 Alan Wang, Kevin Wang, Kaitlin Wan
+
 APCS2 pd08
+
 L #00 -- But What Does the Data Say?
+
 2018-02-09
 
 # Background
