@@ -15,7 +15,7 @@ Problem: Devise a O(n) search algorithm for a n x n 2-D array of integers, where
 
 If there is a n x n 2-D array of integers, wherein numbers increase across any row (L -> R) and down any column, then we believe that our algorithm exhibits a O(n) runtime.
 
-![Flow Chart & Procedure for Algorithim](https://github.com/KaitlinWan/May-Tricks/blob/master/MatrixFinder/Search2DArray.jpg)
+![Flow Chart & Procedure for Algorithim](https://github.com/KaitlinWan/May-Tricks/blob/master/Search2DArray.jpg)
 # Experiment Methodology
 We are going to find out if our algorithm has a O(n) runtime by testing how long the algorithm takes to run on increasing n values. With this data we are going to graph the points and look at the trend of the graph.
 
@@ -28,9 +28,9 @@ In all of our runs in the different test cases, we will start with a n value of 
 However, of those 5000 trials, we will only be using the latter 4900 because for some reason, runtimes in the beginning take much longer before leveling out. We will find the total time for the 4900 trials and calculate the average. Then we will repeat this many times and take the average for the multiple executions before analyzing.
 # Results
 
-![Array With Consecutive Elements and Random Target](https://github.com/KaitlinWan/May-Tricks/blob/master/MatrixFinder/consecutive_rand.png)
-![Array With Consecutive Elements and Worst Case Target](https://github.com/KaitlinWan/May-Tricks/blob/master/MatrixFinder/consecutive_worst.png)
-![Random Array With Random Target](https://github.com/KaitlinWan/May-Tricks/blob/master/MatrixFinder/rand_rand.png)
+![Array With Consecutive Elements and Random Target](https://github.com/KaitlinWan/May-Tricks/blob/master/consecutive_rand.png)
+![Array With Consecutive Elements and Worst Case Target](https://github.com/KaitlinWan/May-Tricks/blob/master/consecutive_worst.png)
+![Random Array With Random Target](https://github.com/KaitlinWan/May-Tricks/blob/master/rand_rand.png)
 
 # Conclusion
 From the data we conclude that this algorithim runs in O(n) runtime because the graphs has a general linear relationship.
