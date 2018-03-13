@@ -28,9 +28,9 @@ In all of our runs in the different test cases, we will start with a n value of 
 However, of those 5000 trials, we will only be using the latter 4900 because for some reason, runtimes in the beginning take much longer before leveling out. We will find the total time for the 4900 trials and calculate the average. Then we will repeat this many times and take the average for the multiple executions before analyzing.
 # Results
 
-![Array With Consecutive Elements and Random Target](https://github.com/KaitlinWan/May-Tricks/blob/master/consecutive_rand.png)
-![Array With Consecutive Elements and Worst Case Target](https://github.com/KaitlinWan/May-Tricks/blob/master/consecutive_worst.png)
-![Random Array With Random Target](https://github.com/KaitlinWan/May-Tricks/blob/master/rand_rand.png)
+![Array With Consecutive Elements and Random Target](https://github.com/KaitlinWan/May-Tricks/MatrixFinder/master/consecutive_rand.png)
+![Array With Consecutive Elements and Worst Case Target](https://github.com/KaitlinWan/May-Tricks/MatrixFinder/master/consecutive_worst.png)
+![Random Array With Random Target](https://github.com/KaitlinWan/May-Tricks/MatrixFinder/master/rand_rand.png)
 
 # Conclusion
 From the data we conclude that this algorithim runs in O(n) runtime because the graphs has a general linear relationship.
